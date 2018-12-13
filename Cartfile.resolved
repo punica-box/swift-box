@@ -1,0 +1,4 @@
+git "file:///Users/siyuanhsiao/workspace/Part-time/OntSwift/" "573a27136507628e131c131eeb1ac69b08795173"
+github "SwiftyJSON/SwiftyJSON" "4.2.0"
+github "google/promises" "1.2.4"
+github "tidwall/SwiftWebSocket" "v2.7.0"
