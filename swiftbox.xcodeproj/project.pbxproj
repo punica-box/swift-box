@@ -13,6 +13,11 @@
 		02E5FBAD21C201E100F6942A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E5FBAC21C201E100F6942A /* Assets.xcassets */; };
 		02E5FBB021C201E100F6942A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E5FBAE21C201E100F6942A /* LaunchScreen.storyboard */; };
 		02E5FBBB21C201E200F6942A /* swiftboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FBBA21C201E200F6942A /* swiftboxTests.swift */; };
+		02E909E721C24ADC0053F938 /* OntSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E909E621C24ADC0053F938 /* OntSwift.framework */; };
+		02E909F121C24E160053F938 /* TestWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E909F021C24E160053F938 /* TestWallet.swift */; };
+		02E909F421C253FC0053F938 /* NeoVmTests.py in Resources */ = {isa = PBXBuildFile; fileRef = 02E909F221C253FC0053F938 /* NeoVmTests.py */; };
+		02E909F521C253FC0053F938 /* NeoVmTests.avm in Resources */ = {isa = PBXBuildFile; fileRef = 02E909F321C253FC0053F938 /* NeoVmTests.avm */; };
+		02E909F721C2543F0053F938 /* NeoVmTests.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = 02E909F621C2543F0053F938 /* NeoVmTests.abi.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,15 @@
 		02E5FBB621C201E200F6942A /* swiftboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E5FBBA21C201E200F6942A /* swiftboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftboxTests.swift; sourceTree = "<group>"; };
 		02E5FBBC21C201E200F6942A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E909E621C24ADC0053F938 /* OntSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OntSwift.framework; path = Carthage/Build/iOS/OntSwift.framework; sourceTree = "<group>"; };
+		02E909E821C24D590053F938 /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
+		02E909E921C24D590053F938 /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
+		02E909EA21C24D590053F938 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftWebSocket.framework; path = Carthage/Build/iOS/SwiftWebSocket.framework; sourceTree = "<group>"; };
+		02E909EB21C24D590053F938 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		02E909F021C24E160053F938 /* TestWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWallet.swift; sourceTree = "<group>"; };
+		02E909F221C253FC0053F938 /* NeoVmTests.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = NeoVmTests.py; sourceTree = "<group>"; };
+		02E909F321C253FC0053F938 /* NeoVmTests.avm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NeoVmTests.avm; sourceTree = "<group>"; };
+		02E909F621C2543F0053F938 /* NeoVmTests.abi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NeoVmTests.abi.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E909E721C24ADC0053F938 /* OntSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +77,7 @@
 				02E5FBA421C201DF00F6942A /* swiftbox */,
 				02E5FBB921C201E200F6942A /* swiftboxTests */,
 				02E5FBA321C201DF00F6942A /* Products */,
+				02E909E521C24ADC0053F938 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +95,10 @@
 			children = (
 				02E5FBA521C201DF00F6942A /* AppDelegate.swift */,
 				02E5FBA721C201DF00F6942A /* ViewController.swift */,
+				02E909F021C24E160053F938 /* TestWallet.swift */,
+				02E909F321C253FC0053F938 /* NeoVmTests.avm */,
+				02E909F621C2543F0053F938 /* NeoVmTests.abi.json */,
+				02E909F221C253FC0053F938 /* NeoVmTests.py */,
 				02E5FBA921C201DF00F6942A /* Main.storyboard */,
 				02E5FBAC21C201E100F6942A /* Assets.xcassets */,
 				02E5FBAE21C201E100F6942A /* LaunchScreen.storyboard */,
@@ -96,6 +116,18 @@
 			path = swiftboxTests;
 			sourceTree = "<group>";
 		};
+		02E909E521C24ADC0053F938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E909E821C24D590053F938 /* FBLPromises.framework */,
+				02E909E921C24D590053F938 /* Promises.framework */,
+				02E909EA21C24D590053F938 /* SwiftWebSocket.framework */,
+				02E909EB21C24D590053F938 /* SwiftyJSON.framework */,
+				02E909E621C24ADC0053F938 /* OntSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +138,7 @@
 				02E5FB9E21C201DF00F6942A /* Sources */,
 				02E5FB9F21C201DF00F6942A /* Frameworks */,
 				02E5FBA021C201DF00F6942A /* Resources */,
+				02E909E421C24A7A0053F938 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -177,7 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E909F421C253FC0053F938 /* NeoVmTests.py in Resources */,
+				02E909F521C253FC0053F938 /* NeoVmTests.avm in Resources */,
 				02E5FBB021C201E100F6942A /* LaunchScreen.storyboard in Resources */,
+				02E909F721C2543F0053F938 /* NeoVmTests.abi.json in Resources */,
 				02E5FBAD21C201E100F6942A /* Assets.xcassets in Resources */,
 				02E5FBAB21C201DF00F6942A /* Main.storyboard in Resources */,
 			);
@@ -192,6 +228,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02E909E421C24A7A0053F938 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OntSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftWebSocket.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Promises.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBLPromises.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/OntSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftWebSocket.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Promises.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBLPromises.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02E5FB9E21C201DF00F6942A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +266,7 @@
 			files = (
 				02E5FBA821C201DF00F6942A /* ViewController.swift in Sources */,
 				02E5FBA621C201DF00F6942A /* AppDelegate.swift in Sources */,
+				02E909F121C24E160053F938 /* TestWallet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -361,6 +429,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = swiftbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +450,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = swiftbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
